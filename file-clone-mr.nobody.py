@@ -181,8 +181,8 @@ logo=("""\033[1;97m
 \033[1;93m--------------------------------------------------
 \033[1;37m[-] OWNER     :\033[1;32m  Mr.NOBODY
 \033[1;37m[-] GITHUB    :\033[1;32m  https://github.com/mrnobdoy
-\033[1;37m[-] VERSION   :\033[1;32m       (1.3)
-\033[1;37m[-] STATUS    :\033[1;32m       (FREE)
+\033[1;37m[-] VERSION   :\033[1;32m  (1.3)
+\033[1;37m[-] STATUS    :\033[1;32m  (FREE)
 --------------------------------------------------""")
 def linex():
 	print('\033[0;97m--------------------------------------------------')
@@ -379,9 +379,9 @@ def random_number1():
 	uid=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE :92318,92345,92323,92306.ETC')
+	print('[√] EXAMPLE :017,018,016,019,015.ETC')
 	linex()
-	kode = input('[+]\033[0;92m PUT YOUR SIM CODE : ')
+	kode = input('[+]\033[0;88m PUT YOUR SIM CODE : ')
 	os.system('clear')
 	print(logo)
 	limit = int(input('[+]How many numbers do you want to add ? '))
