@@ -460,7 +460,7 @@ def random_number3():
 		print(logo)
 		tl = str(len(uid))
 		print('[*] Total Acounts : '+tl)
-		print('[+] Ypur Select Code : '+kode)
+		print('[+] Your Select Code : '+kode)
 		print('\x1b[1;91m[*] If You No Result Use Flight Mode ')
 		linex()
 		for guru in uid:
