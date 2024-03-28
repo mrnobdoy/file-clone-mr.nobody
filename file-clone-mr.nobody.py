@@ -259,7 +259,7 @@ def fia():
 				print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 				linex()
 				input(' Press enter to back ')
-				os.system('python nobody.py')
+				os.system('python file-clone-mr.nobody.py')
 			elif xd in ['2','02']:
 				menu()
 			elif xd in ['3','03']:
@@ -280,7 +280,7 @@ def mmm(ids,names,passlist):
 		try:
 			last = names.split(' ')[1]
 		except:
-			last = 'Khan'
+			last = 'nobody'
 		ps = first.lower()
 		ps2 = last.lower()
 		for fikr in passlist:
@@ -322,7 +322,7 @@ def ffb(ids,names,passlist):
 		try:
 			last = names.split(' ')[1]
 		except:
-			last = 'Khan'
+			last = 'nobody'
 		ps = first.lower()
 		ps2 = last.lower()
 		for fikr in passlist:
@@ -393,7 +393,7 @@ def random_number1():
 		print(logo)
 		tl = str(len(uid))
 		print('[*] Total Acounts : '+tl)
-		print('[+] Ypur Select Code : '+kode)
+		print('[+] Your Select Code : '+kode)
 		print('\x1b[1;91m[*] If You No Result Use Flight Mode ')
 		linex()
 		for guru in uid:
@@ -425,7 +425,7 @@ def random_number2():
 		print(logo)
 		tl = str(len(uid))
 		print('[*] Total Acounts : '+tl)
-		print('[+] Ypur Select Code : '+kode)
+		print('[+] Your Select Code : '+kode)
 		print('\x1b[1;91m[*] If You No Result Use Flight Mode ')
 		linex()
 		for guru in uid:
@@ -492,7 +492,7 @@ def bd():
 		print(logo)
 		tl = str(len(uid))
 		print('[*] Total Acounts : '+tl)
-		print('[+] Ypur Select Code : '+kode)
+		print('[+] Your Select Code : '+kode)
 		print('\x1b[1;91m[*] If You No Result Use Flight Mode ')
 		linex()
 		for guru in uid:
