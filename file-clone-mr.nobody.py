@@ -439,8 +439,6 @@ def random_number2():
 	input('Press Inter To Back Menu')
 	fia()
 #____________
-
-
 #_______
 def random_number3():
 	uid=[]
