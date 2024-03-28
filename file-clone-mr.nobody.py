@@ -46,7 +46,7 @@ except ModuleNotFoundError:
 	os.system('pip install requests bs4 futures==2 > /dev/null')
 	os.system('python file-clone-mr.nobody.py')
 ugen = []
-for xd in range(5000):
+for xd in range(999999):
 	aa='Mozilla/5.0 (Linux; U; Android'
 	b=random.choice(['3','4','5','6','7','8','9','10','11','12','13','14','15','16','17'])
 	c=' en-us; GT-'
@@ -56,7 +56,7 @@ for xd in range(5000):
 	g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
 	h=random.randrange(73,100)
 	i='0'
-	j=random.randrange(4200,4900)
+	j=random.randrange(9200,99900)
 	k=random.randrange(40,150)
 	l='Mobile Safari/537.36'
 	uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
@@ -394,7 +394,7 @@ def random_number1():
 		tl = str(len(uid))
 		print('[*] Total Acounts : '+tl)
 		print('[+] Your Select Code : '+kode)
-		print('\x1b[1;91m[*] If You No Result Use Flight Mode ')
+		print('\x1b[1;91m[*] If You don't get any Results Use Flight Mode ')
 		linex()
 		for guru in uid:
 			uid = kode+guru
@@ -426,7 +426,7 @@ def random_number2():
 		tl = str(len(uid))
 		print('[*] Total Acounts : '+tl)
 		print('[+] Your Select Code : '+kode)
-		print('\x1b[1;91m[*] If You No Result Use Flight Mode ')
+		print('\x1b[1;91m[*] If You don't get any Results Use Flight Mode ')
 		linex()
 		for guru in uid:
 			uid = kode+guru
@@ -461,7 +461,7 @@ def random_number3():
 		tl = str(len(uid))
 		print('[*] Total Acounts : '+tl)
 		print('[+] Your Select Code : '+kode)
-		print('\x1b[1;91m[*] If You No Result Use Flight Mode ')
+		print('\x1b[1;91m[*] If You don't get any Results Use Flight Mode ')
 		linex()
 		for guru in uid:
 			uid = kode+guru
@@ -493,7 +493,7 @@ def bd():
 		tl = str(len(uid))
 		print('[*] Total Acounts : '+tl)
 		print('[+] Your Select Code : '+kode)
-		print('\x1b[1;91m[*] If You No Result Use Flight Mode ')
+		print('\x1b[1;91m[*] If You don't get any Results Use Flight Mode ')
 		linex()
 		for guru in uid:
 			uid = kode+guru
